@@ -56,11 +56,11 @@
 	<module name="strategy">
 		<param name="maxAgentPlanMemorySize" value="5" /> <!-- 0 means unlimited -->
 
-		<param name="ModuleProbability_1" value="0.9" />
-		<param name="Module_1" value="BestScore" />
+		<param name="ModuleProbability_1" value="0.9" /> <!-- in 90 percent of cases it will do this -->
+		<param name="Module_1" value="BestScore" /> <!-- use the path with the highest score -->
 
-		<param name="ModuleProbability_2" value="0.1" />
-		<param name="Module_2" value="ReRoute" />
+		<param name="ModuleProbability_2" value="0.1" /> <!-- in 10 percent of cases it will do this -->
+		<param name="Module_2" value="ReRoute" /> <!-- new path -->
 	</module>
 
 </config>
